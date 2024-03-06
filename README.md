@@ -38,3 +38,6 @@ For the most up-to-date and easy way to download it, you can follow this link [h
   ```
 - `#qed`
   Appends a QED to the end, right aligned.
+
+## Screenshot
+![image](https://github.com/gmax9803/nd-assignment-templates/assets/27639180/8b055ce0-91a7-4dda-8e99-ee1e67551656)
