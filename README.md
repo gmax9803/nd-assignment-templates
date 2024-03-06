@@ -39,5 +39,8 @@ For the most up-to-date and easy way to download it, you can follow this link [h
 - `#qed`
   Appends a QED to the end, right aligned.
 
+## Changelog
+- [3/6/24] - Reworked headings, fixed outline issue
+
 ## Screenshot
-![image](https://github.com/gmax9803/nd-assignment-templates/assets/27639180/8b055ce0-91a7-4dda-8e99-ee1e67551656)
+<img width="690" alt="image" src="https://github.com/gmax9803/nd-assignment-templates/assets/27639180/5a85b3a9-f941-41c7-b404-88e724dfb889">
