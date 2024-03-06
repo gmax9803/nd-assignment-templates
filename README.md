@@ -1,7 +1,7 @@
 # ND Assignment Templates
 In `general/` you can find the general dynamic [typst](https://typst.app) template I've created and used for most of my assignments.
 
-For the most up-to-date and easy way to download it, you can follow this link [here](https://typst.app/project/rMbq_AyCwbEcPnz6IrXDtQ).
+[_*View on Typst here*_](https://typst.app/project/rMbq_AyCwbEcPnz6IrXDtQ) for most up-to-date version.
 
 ## Some notes for usage:
 - When you first use it/download it, go to `utils.typ` and personalize the dictionary information at the top.
