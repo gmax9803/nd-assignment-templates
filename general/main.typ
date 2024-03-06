@@ -1,48 +1,65 @@
 /*
 * This template was created by Max (gmax9803)
-* Updated: 02/05/2024
+* Updated: 02/06/2024
 */
 
 /* [SETTINGS] */
 /* See [utils.typ] for all other settings */
-#import "utils.typ": *
-
-#set page(paper: "us-letter", 
-  header: hdr,
-  footer: [ #align(right)[ #nid - page #counter(page).display("1/1", both: true) ] ] 
-) // Page Data
-
+#import "utils.typ": * // import everything from utils.typ `from utils import *`
+#set page(paper: "us-letter", header: hdr, footer: ftr) // Page Data
+#misc_settings
 #init_header  // initial header (name, due date, etc.)
-#oline        // outline
+#oline(probnum)        // outline
 
 /* [END OF SETTINGS] */
 
 /* [BEGIN PROBLEM SET] */
 
 #problem() // PROBLEM 1
-#subprob()
-#proof(b: true)[
-  You can do proofs like this. In this case it will be prefixed by a "proof:" header and ended with a QED automatically. It will also be padded.
+#subprob() // (1a)
+
+#proof(b: true)[ // border: true
+  You can do proofs like this. In this case it will be prefixed by a "proof:" header and ended with a QED automatically. It will also be padded and centered.\
+  Usage:
+  ```
+    #proof(b: true)[
+      content
+    ]
+  ```
 ]
 
-
-#subprob()
-#proof()[
-  Or you can do proofs like this. Without a visible box, It's up to you.
+#subprob() // (1b)
+#proof()[  // No border
+  Or you can do proofs like this - without a visible box.\
+  ```
+    #proof()[
+      content
+    ]
+  ```
 ]
 
-#cbox()[
-  or if you just like the padding, you can do this :) by using `cbox()[content]`. It also takes a `b: true|false` argument if you would like a border.
+#cbox()[ // no border
+  Or, if you're not writing a proof and just want to keep the formatting, you can do this. (It's a box without proof or a border)
+  ```
+    #cbox()[
+      content
+    ]
+  ```
 ]
 
-#cbox(b: true)[
-  `#cbox(b: true)[ content ]`
+#cbox(b: true)[ // border: true
+  Or you can do the same thing with a border.
+  ```
+    #cbox(b: true)[ 
+      content 
+    ]
+  ```
 ]
 
 
 #problem() // PROBLEM 2
 #subprob() // (2a) 
-Or you can do proofs manually with a manual QED, using `#qed`.
+Or you can do proofs with custome formatting and just append a QED, using `#qed`.
 
 #qed
 
