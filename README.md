@@ -1,9 +1,12 @@
 # ND Assignment Templates
+### About
+Although the respository might contain more templates in the future, currently it just contains my main typesetting template for Typst that I use for Theory of Computing and similar proof-based math classes.
+
 In `general/` you can find the general dynamic [typst](https://typst.app) template I've created and used for most of my assignments.
 
 [_*View on Typst here*_](https://typst.app/project/rMbq_AyCwbEcPnz6IrXDtQ) for most up-to-date version.
 
-## Some notes for usage:
+## Usage Notes:
 - When you first use it/download it, go to `utils.typ` and personalize the dictionary information at the top.
   It will look something like the following. Everything is dynamically updated from `utils.typ`, so if something is not updating like you might want it to, you need to change a setting.
   ```js
@@ -22,7 +25,7 @@ In `general/` you can find the general dynamic [typst](https://typst.app) templa
   - Likewise with `#subprob()`, but you can provide a custom lettering like this should you prefer: `#subprob("a")`. 
 - See custom functions below.
 
-## Some custom functions:
+## Some Custom Functions:
 - `#proof()[]`
   ```
   #proof(b: true)[
